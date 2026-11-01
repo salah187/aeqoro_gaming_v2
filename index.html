@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#10120f">
+  <title>AEQORO Gaming</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand-mark">A</div>
+      <div class="brand-copy"><strong>AEQORO</strong><span>GAMING HUB</span></div>
+      <div class="status-pill"><i></i> ONLINE</div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="eyebrow">YOUR GAMING DESTINATION</div>
+        <h1>Play smart.<br><span>Explore more.</span></h1>
+        <p>Discover gaming platforms, explore approved offers, and share your personal referral link.</p>
+        <div class="hero-art" aria-hidden="true">
+          <div class="orb orb-one"></div><div class="orb orb-two"></div>
+          <div class="chip"><span>A</span></div>
+          <div class="shine"></div>
+        </div>
+        <div class="disclaimer">18+ where applicable · Availability depends on local laws and platform terms.</div>
+      </section>
+
+      <section class="section-head">
+        <div><div class="eyebrow">DISCOVER</div><h2>Featured area</h2></div>
+        <span class="tag">COMING SOON</span>
+      </section>
+      <section class="feature-card">
+        <div class="feature-icon">✦</div>
+        <div class="feature-copy">
+          <h3>Partner offers</h3>
+          <p id="partner-text">Official partner offers will appear here after approval.</p>
+        </div>
+        <button id="partner-btn" class="button button-secondary" disabled>Unavailable</button>
+      </section>
+
+      <section class="section-head">
+        <div><div class="eyebrow">YOUR COMMUNITY</div><h2>Referral center</h2></div>
+      </section>
+      <section class="stats-grid">
+        <div class="stat-card"><span class="stat-label">Verified referrals</span><strong id="referrals">—</strong><small>Tracked sign-ups</small></div>
+        <div class="stat-card"><span class="stat-label">Link clicks</span><strong id="clicks">—</strong><small>Recorded in this app</small></div>
+      </section>
+      <section class="referral-card">
+        <div class="referral-title"><div><div class="eyebrow">INVITE & SHARE</div><h3>Your referral link</h3></div><span class="share-icon">↗</span></div>
+        <p>Invite friends to discover AEQORO. Referral counts are not cash rewards and do not guarantee affiliate commissions.</p>
+        <div class="link-box"><span id="ref-link">Loading your link…</span><button id="copy-btn" aria-label="Copy referral link">COPY</button></div>
+        <div id="toast" role="status" aria-live="polite"></div>
+      </section>
+
+      <section class="notice">
+        <strong>Play responsibly</strong>
+        <p>This app does not accept deposits, bets, or withdrawals. No winnings or commissions are guaranteed. Only use services legally available to you.</p>
+      </section>
+      <footer>AEQORO GAMING <span>•</span> <a href="/privacy">Privacy</a></footer>
+    </main>
+  </div>
+  <script src="/static/app.js"></script>
+</body>
+</html>
